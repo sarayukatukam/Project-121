@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>Real Time Image Identification App</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+      <body>
+        <center>
+            <h3>Case Study Between Google Lens And Mobile Net</p>
+            <span class="google_lens">Google Lens<img src="https://www.computerhope.com/jargon/g/google-lens.png"></span>
+            <p>VS</p>
+            <p class="btn btn-primary">Mobile Net</p>
+            <br><br><br>
+            
+                <div class="test_image_and_result col-xs-12">
+
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - </b>
+                        <img src="https://m.media-amazon.com/images/I/51uDEwagW6L._SL1500_.jpg" class="img-responsive">
+                    </li>
+                    
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>Google Lens</b>
+                        <br><br>
+                        <span> Dubblin Harsh Water Bottle</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>Mobilenet Model</b>
+                        <br><br>
+                        <span> Water Bottle </span>
+                    </h5>
+
+                    <div class="mini_result" class="col-xs-12">
+                        <h4>Result - Google Lens is more appropriate </h4>
+                        <hr>
+                        <h4> </h4>
+                    </div>
+
+                </div>
+            
+            <br><br><br>
+            
+                <div class="test_image_result col-xs-12">
+
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - </b>
+                        <img src="https://images-na.ssl-images-amazon.com/images/G/31/img21/Watches2021/May/XCM/SBC/M/SBC-Hex-new-watches-m_02._CB636514486_.jpg" class="img-responsive">
+                    </li>
+                    
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>Google Lens</b>
+                        <br><br>
+                        <span> Tommy Hilfiger Watch</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>Mobilenet Model</b>
+                        <br><br>
+                        <span> Time Watch </span>
+                    </h5>
+
+                    <div class="mini_result" class="col-xs-12">
+                        <h4>Result - Google Lens is more appropriate </h4>
+                        <hr>
+                        <h4> </h4>
+                    </div>
+
+                </div>
+            
+
+            
+                <div class="test_img_result col-xs-12">
+
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Test Image - </b>
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2020/10/MF/DR/SO/12721597/airpods-pro-ith-charging-case-earpods-airpods-earbuds-earphones-with-mic-for-android-ios-smartphones-500x500.jpg" class="img-responsive">
+                    </li>
+                    
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>Google Lens</b>
+                        <br><br>
+                        <span> Oppo Earphone </span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>Mobilenet Model</b>
+                        <br><br>
+                        <span> Charging Cable </span>
+                    </h5>
+
+                    <div class="mini_result" class="col-xs-12">
+                        <h4>Result - Google Lens is more appropriate </h4>
+                        <hr>
+                        <h4> </h4>
+                    </div>
+
+                </div>
+                
+                   <p id="ll"> I have tested 3 images
+                    Google Lens has predicted 3 of them more accurately.And MobileNet was less accurate.
+                    So,According to my case study Google lans is more accurate.</p>
+              
+        </center>
+      </body>
+</html>
